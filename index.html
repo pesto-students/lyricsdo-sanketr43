@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LyricsDo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-content">
+        <h1>LyricsDo</h1>
+        <div class="wrapper">
+          <div class="search_wrap search_wrap_box">
+            <div class="search_box">
+              <input
+                type="text"
+                class="input"
+                placeholder="search..."
+                id="searchBox"
+              />
+              <div class="btn" onclick="getLyricsList();">
+                <p>Search</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="all">
+        <div class="cards" id="lyricsListing">
+          <div id="lyricsText" class="lyrics-text"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
